@@ -1,0 +1,187 @@
+<!--<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<style> 
+    div{
+     color:rgb(255, 255, 255);
+     background-color:rgb(94, 22, 22);
+     text-align:center;
+    }
+    h1{
+        background-color:pink;
+    }
+
+</style>
+    <title>Lakhan</title>
+</head>
+<body>
+    <h1>Document</h1>
+    <div>Hi i am lakhan </div>
+</body>
+</html>-->
+
+<!--<!DOCTYPE html>
+<html lang="en">
+<head>
+    <h1 style = "color:blue;">HELLO</h1>
+
+    <title>Lakhan</title>
+</head>
+<body>
+    <h1>Document</h1>
+    <div>Hi i am lakhan </div>
+</body>
+</html>-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .one{
+            color:blue;
+        }
+        </style>
+</head>
+<body>
+    <div>
+        <h2 class="one">hello</h2>
+        <h5 class="one">hii</h5>
+         </div>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1.center{
+            text-align:center;
+        }
+    </style>
+</head>
+<body>
+    <h1 class="center">lakhan</h1>
+</body>
+</html>
+
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.dotted {border-style: dotted;
+}
+.dashed {border-style: dashed;}
+.solid {border-style: solid;}
+.double {border-style: double;}
+.groove {border-style: groove;}
+.ridge {border-style: ridge;
+ background-color:rgb(255 151 0);
+ opacity:0.5
+}
+.inset {border-style: inset;}
+.outset {border-style: outset;}
+.none {border-style: none;}
+.hidden {border-style: hidden;}
+.mix {border-style: dotted dashed solid double;}
+
+
+</style>
+</head>
+<body>
+
+<h2>The border-style Property</h2>
+<p>This property specifies what kind of border to display:</p>
+
+<p class="dotted">A dotted border.</p>
+<p class="dashed">A dashed border.</p>
+<p class="solid">A solid border.</p>
+<p class="double">A double border.</p>
+<p class="groove">A groove border.</p>
+<p class="ridge">A ridge border.</p>
+<p class="inset">An inset border.</p>
+<p class="outset">An outset border.</p>
+<p class="none">No border.</p>
+<p class="hidden">A hidden border.</p>
+<p class="mix">A mixed border.</p>
+<h2 class="dotted">LAkhan Gurubaxani</h2>
+<h2 class="dashed">Lakhan urubaxani</h2>
+<h2 class="solid">Lakhan Gurubaxani</h2>
+<h2 class="double">Lakhan.Gurubaxani</h2>
+<h2 class="groove">Lakhan Gurubaxani</h2>
+<h2 class="ridge">Lakhan Gurubaxani</h2>
+<h2 class="inset">Lakhan Gurubaxani</h2>
+<h2 class="outset">Lakhan Gurubaxani</h2>
+<h2 class="none">LAkhan GUrubaxani</h2>
+<h2 class= "hidden">Lakhan gurubaxani</h2>
+<h2 class="mix"> Lakhan Gurubaxani</h2>
+
+
+
+</body>
+</html>
+
+
+The <input> tag in HTML is used to create interactive elements in a form where users can enter data, such as text, numbers, dates, or make selections.
+The disabled attribute makes the input field non-editable by the user.
+
+
+
+FLEXBOX IN CSS
+--><!DOCTYPE html>
+<html>
+  <head>
+    <title>CALCULATOR</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+      <div class="FLEX-CONTAINER">
+        <div class ="items">1</div>
+        <div class="items">2</div>
+        <div class="items">3</div>
+        <div class="items">4</div>
+        <div class="items">5</div>
+        <div class="items">6</div>
+        <div class="items">7</div>
+        <div class="items">8</div>
+        <div class="items">9</div>
+        <div class="items">0</div>
+        <div class="items">+</div>
+        <div class="items">-</div>
+        <div class="items">*</div>
+        <div class="items">/</div>
+        <div class="items">.</div>
+        <div class="items"><</div>
+        <div class="items">></div>
+        <div class="items">=</div>
+      </div>
+  </body>
+</html>
+
+.FLEX-CONTAINER{
+  display:flex;
+  background-color: blue;
+  width:50px;
+  height:220px;
+  border:2px solid black;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  flex-direction: row;
+  
+}
+.items{
+  background-color: aqua;
+  border:2px solid green;
+  width:20px;
+  height:20px;
+  
+}

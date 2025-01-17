@@ -1,0 +1,22 @@
+.box1{
+    display:inline-block;
+    width:350px;
+    height:500px;
+    color: rgb(219, 228, 236);
+    background-color: rgb(237, 147, 147);
+}
+.box2{
+    display:block;
+    visibility: hidden;
+    width:100px;
+    height: 300px;
+    color:aliceblue;
+    background-color: rgba(0, 128, 0, 0.516);
+}
+.box3{
+    display:inline;
+    width:100px;
+    height: 300px;
+    color:aliceblue;
+    background-color: rgba(0, 128, 0, 0.516);
+}

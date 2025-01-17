@@ -1,0 +1,47 @@
+/* Container styles */
+.container {
+    display: grid;
+    background-color: rgb(16, 52, 43);
+    height: 1000px;
+    width: 500px;
+    padding: 10px;
+    grid-template-rows: 100px 1fr 100px; /* Removed commas */
+    grid-template-columns: 1fr 1fr 1fr; /* Removed commas */
+    row-gap: 20px;
+    column-gap: 20px;
+    align-content: center;
+}
+
+/* Individual grid items */
+.item {
+    background-color: rgb(205, 29, 29);
+    color: white;
+   /* Fixed height for items */
+    border-radius: 5px;
+   
+}
+
+/* Special styling for item1 */
+.item1 {
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+   /* grid-column-start: 1;
+    grid-column-end: 4;  Makes it span across three columns  hum neecha wala bhi use karr sakte hai*/
+    grid-column:1 / span  4;
+   align-items: center;
+   text-align: center;
+}
+.item2 {
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    grid-column-start: 1;
+    grid-column-end: 4; /* Makes it span across three columns */
+   justify-content: center;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}

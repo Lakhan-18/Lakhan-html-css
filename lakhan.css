@@ -1,0 +1,22 @@
+body{
+    
+    color : rgb(100,100,100,0.8);
+    width:690px;
+    height: 1116px;
+     background-image: url("Screenshot\ 2024-12-02\ 234039.png");
+     background-size: 6px,6px;
+     background-repeat: no-repeat;
+     background-attachment:scroll;
+     margin-right: "100 px";
+     background-size: 500px;
+     border: 2px solid rgb(110, 7, 7);
+     /*background-position: top center;*/
+     background-attachment: scroll;
+     overflow:hidden;
+     word-wrap: break-word;
+}
+*{
+    margin:"0";
+    padding:"0";
+
+}

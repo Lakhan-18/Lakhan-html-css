@@ -1,0 +1,22 @@
+
+.box{
+    background-color: aqua;
+    color:black;
+    width:200px;
+    height:200px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    transition-property:background-color;
+    transition-duration: 5s;
+    transition-timing-function: ease-in;/*ease in   ease-out  ease in-out*/
+    border-radius:300px;
+}
+.box:hover{
+    background-color: rgb(184, 45, 45);
+    height:400px;
+    width:400px;
+    border-radius:500px;
+    font-size:25px;
+
+}
